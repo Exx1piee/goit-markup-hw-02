@@ -165,3 +165,18 @@ flex-grow: 0;
 .address:focus{
   color: #404bbf;
 }
+.begin-section3{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
