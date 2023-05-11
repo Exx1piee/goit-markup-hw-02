@@ -63,6 +63,12 @@ body {
   order: 0;
   flex-grow: 0;
 }
+.button-heroimg:hover{
+  background-color: #404BBF;
+}
+.button-heroimg:focus{
+  background-color: #404BBF;
+}
 .list {
   list-style: none;
 }
@@ -109,3 +115,4 @@ body {
   color: #ffffff;
   line-height: 1.07
 }
+
