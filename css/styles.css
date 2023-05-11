@@ -16,23 +16,23 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
-  text-decoration: none
+  text-decoration: none;
 }
-.logo2{
-    font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2E2F42;
-flex: none;
-order: 1;
-flex-grow: 0; 
-text-decoration: none
+.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
 }
 
 .header {
@@ -42,6 +42,37 @@ text-decoration: none
 .button {
   cursor: pointer;
 }
-.list{
-    list-style: none;
+.list {
+  list-style: none;
+}
+.list-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+  width: 48px;
+  height: 24px;
+}
+.list-link:hover {
+  color: #404bbf;
+}
+.list-link:focus {
+  color: #404bbf;
+}
+.menu-adress {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  letter-spacing: 0.02em;
 }
