@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.1em;
-  color: #434455;
+  color: #434455 ;
   background-color: #ffffff;
 }
 .link {
@@ -183,4 +183,23 @@ body {
 }
 .our-team-photos{
   background-color: #ffffff;
+}
+.footer{
+  background-color: #2e2f42; 
+}
+.logotwo-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
 }
