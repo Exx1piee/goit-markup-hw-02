@@ -90,7 +90,7 @@ body {
 .list-link:focus {
   color: #404bbf;
 }
-.menu-address {
+.address {
   list-style: none;
   font-family: "Roboto";
   font-style: normal;
