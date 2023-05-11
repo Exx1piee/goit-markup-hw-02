@@ -46,7 +46,7 @@ body {
   list-style: none;
 }
 .list-link {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -57,8 +57,6 @@ body {
   order: 0;
   flex-grow: 0;
   text-decoration: none;
-  width: 48px;
-  height: 24px;
 }
 .list-link:hover {
   color: #404bbf;
@@ -68,7 +66,7 @@ body {
 }
 .menu-adress {
   list-style: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
