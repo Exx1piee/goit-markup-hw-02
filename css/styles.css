@@ -41,33 +41,33 @@ body {
 
 .button-heroimg {
   cursor: pointer;
-  font-family: 'Roboto' , sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-  
+
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  
+
   /* WHITE */
-  
-  background: #4D5AE5;
+
+  background: #4d5ae5;
   color: #ffffff;
-  
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-.button-heroimg:hover{
-  background-color: #404BBF;
+.button-heroimg:hover {
+  background-color: #404bbf;
 }
-.button-heroimg:focus{
-  background-color: #404BBF;
+.button-heroimg:focus {
+  background-color: #404bbf;
 }
 .list {
   list-style: none;
@@ -112,71 +112,69 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  line-height: 1.07
+  line-height: 1.07;
 }
-.address-menu{
+.address-menu {
   font-style: normal;
 }
-.main-info{
+.main-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
 
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height, or 120% */
+  letter-spacing: 0.02em;
 
-letter-spacing: 0.02em;
+  /* NAVY BLUE */
 
-/* NAVY BLUE */
+  color: #2e2f42;
 
-color: #2E2F42;
+  /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.main-info-p{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+.main-info-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
-/* SLATE */
+  /* SLATE */
 
-color: #434455;
+  color: #434455;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
-.address:hover{
+.address:hover {
   color: #404bbf;
 }
-.address:focus{
+.address:focus {
   color: #404bbf;
 }
-.begin-section3{
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-/* identical to box height, or 111% */
+.begin-section3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 
-/* NAVY BLUE */
+  /* NAVY BLUE */
 
-color: #2E2F42;
+  color: #2e2f42;
+  line-height: 1.11;
 }
