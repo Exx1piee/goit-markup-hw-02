@@ -39,8 +39,19 @@ body {
   background-color: #e7e9fc;
 }
 
-.button {
+.button-heroimg {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 645px;
+  top: 428px;
+
+  /* IRIS */
+
+  background: #4d5ae5;
+  border-radius: 4px;
 }
 .list {
   list-style: none;
@@ -73,4 +84,22 @@ body {
   color: #434455;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+.heroimg {
+  background-color: #2e2f42;
+}
+.heroimg-h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+
+  color: #ffffff;
 }
