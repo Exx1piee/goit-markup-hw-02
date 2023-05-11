@@ -73,7 +73,7 @@ body {
   list-style: none;
 }
 .list-link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -92,14 +92,13 @@ body {
 }
 .address {
   list-style: none;
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #434455;
   letter-spacing: 0.02em;
-  font-style: normal;
+  text-decoration: none;
 }
 .heroimg {
   background-color: #2e2f42;
@@ -114,5 +113,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   line-height: 1.07
+}
+.address-menu{
+  font-style: normal;
 }
 
