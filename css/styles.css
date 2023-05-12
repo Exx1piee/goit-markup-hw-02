@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.1em;
-  color: #434455 ;
+  color: #434455;
   background-color: #ffffff;
 }
 .link {
@@ -178,14 +178,14 @@ body {
   color: #2e2f42;
   line-height: 1.11;
 }
-.our-team{
-  background-color: #F4F4FD;
+.our-team {
+  background-color: #f4f4fd;
 }
-.our-team-photos{
+.our-team-photos {
   background-color: #ffffff;
 }
-.footer{
-  background-color: #2e2f42; 
+.footer {
+  background-color: #2e2f42;
 }
 .logotwo-footer {
   font-family: "Raleway", sans-serif;
@@ -203,54 +203,51 @@ body {
   flex-grow: 0;
   text-decoration: none;
 }
-.footer-p{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+.footer-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
-/* CLOUD */
+  /* CLOUD */
 
-color: #F4F4FD;
+  color: #f4f4fd;
 }
-.portfolio-main{
-
+.portfolio-main {
 }
-.button-portfolio{
+.button-portfolio {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 
-/* IRIS */
+  /* IRIS */
 
-color: #4D5AE5;
+  color: #4d5ae5;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-background-color:  #F4F4FD;
-cursor: pointer;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
-.button-portfolio:hover{
-  color: #FFFFFF;
-  background-color: #404BBF;
-
+.button-portfolio:hover {
+  color: #ffffff;
+  background-color: #404bbf;
 }
-.button-portfolio:focus{
-  color: #FFFFFF;
-  background-color: #404BBF;
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
