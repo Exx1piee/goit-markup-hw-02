@@ -217,5 +217,40 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 .portfolio-main{
-  
+
+}
+.button-portfolio{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+/* IRIS */
+
+color: #4D5AE5;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+background-color:  #F4F4FD;
+cursor: pointer;
+}
+.button-portfolio:hover{
+  color: #FFFFFF;
+  background-color: #404BBF;
+
+}
+.button-portfolio:focus{
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
