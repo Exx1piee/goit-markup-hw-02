@@ -32,9 +32,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   text-decoration: none;
 }
 
@@ -43,8 +40,8 @@ body {
 }
 
 .button-heroimg {
-  cursor: pointer;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -59,12 +56,6 @@ body {
 
   background: #4d5ae5;
   color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .button-heroimg:hover {
   background-color: #404bbf;
@@ -83,9 +74,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 .list-link:hover {
   color: #404bbf;
@@ -122,7 +111,7 @@ body {
 }
 .main-info {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 20px;
   line-height: 24px;
   /* identical to box height, or 120% */
@@ -135,9 +124,7 @@ body {
 
   /* Inside auto layout */
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
 }
 
 .main-info-p {
@@ -155,9 +142,7 @@ body {
 
   /* Inside auto layout */
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+
 }
 .address:hover {
   color: #404bbf;
@@ -201,9 +186,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   text-decoration: none;
 }
 .footer-p {
@@ -232,16 +214,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
-  /* IRIS */
-
   color: #4d5ae5;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   background-color: #f4f4fd;
   cursor: pointer;
 }
